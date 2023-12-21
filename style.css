@@ -78,3 +78,43 @@ main {
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 10px;
 }
+
+header {
+	padding: 0px 15px;
+	border-radius: 10px;
+	font-family: 'Silkscreen', sans-serif;
+	color: white;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+#empty {
+	width: 50px;
+	height: 50px;
+}
+
+h1 {
+	background-color: rgba(0, 0, 0, 1);
+	background-color: #201e20;
+	border-radius: 5px;
+	padding: 5px 20px;
+	font-size: 2.5rem;
+}
+
+a {
+	width: 50px;
+	margin-right: 10px;
+	align-self: flex-start;
+}
+
+.fa-github {
+	color: gainsboro;
+	font-size: 2.2rem;
+}
+
+.fa-github:hover {
+	color: white;
+}
