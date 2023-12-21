@@ -272,3 +272,85 @@ a {
 	font-weight: bold;
 	font-family: 'Silkscreen', sans-serif;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1800px) {
+	:root {
+		font-size: 23px;
+	}
+
+	a {
+		margin-right: 20px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	:root {
+		font-size: 17px;
+	}
+
+	#random-array-button,
+	#sort-button {
+		width: 17.5%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	main {
+		width: 100%;
+		height: 100%;
+		border-radius: 0px;
+		border: none;
+		padding: 10px 0px;
+	}
+
+	header {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		gap: 20px;
+	}
+
+	#empty {
+		height: 0px;
+		width: 0px;
+	}
+
+	a {
+		align-self: center;
+	}
+
+	#random-and-sort-container {
+		height: 45%;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	#random-section,
+	#sort-section {
+		flex-direction: column;
+		width: 100%;
+		gap: 10px;
+		justify-content: center;
+	}
+
+	#random-array-bar,
+	#input-field-container {
+		height: 40%;
+		width: 95%;
+	}
+	#random-array-bar {
+		gap: 10px;
+	}
+
+	#random-array-button,
+	#sort-button {
+		height: 30%;
+		width: 30%;
+	}
+
+	#display {
+		width: 95%;
+		justify-content: space-evenly;
+	}
+}
