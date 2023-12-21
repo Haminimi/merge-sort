@@ -104,3 +104,12 @@ function transformArray(array) {
 		return [];
 	}
 }
+
+function showResult(array) {
+	if (array.length === 0) {
+		result.textContent = 'NOT A NUMBER';
+	} else {
+		result.style.opacity = '1';
+		result.textContent = array.join(', ');
+	}
+}
