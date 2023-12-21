@@ -83,3 +83,11 @@ function copyToClipboard(text) {
 copyButton.addEventListener('click', () => {
 	copyToClipboard(randomArray.textContent);
 });
+
+sortButton.addEventListener('click', (event) => {
+	event.preventDefault();
+	const array = transformArray([field.value]);
+	const result = mergeSort(array);
+	field.value = '';
+	showResult(result);
+});
