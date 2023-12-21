@@ -91,3 +91,16 @@ sortButton.addEventListener('click', (event) => {
 	field.value = '';
 	showResult(result);
 });
+
+function transformArray(array) {
+	const regex = /\b(\d+(\.\d+)?)\b/g;
+
+	const matches = array[0].match(regex);
+
+	if (matches) {
+		const numbersArray = matches.map(Number);
+		return numbersArray;
+	} else {
+		return [];
+	}
+}
