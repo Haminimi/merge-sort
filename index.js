@@ -128,3 +128,13 @@ function pasteFromClipboard() {
 pasteButton.addEventListener('click', () => {
 	pasteFromClipboard();
 });
+
+//Show a default sorted list
+window.addEventListener('load', () => {
+	const randomArray = generateRandomArray();
+	showRandomArray(randomArray);
+
+	const result = mergeSort(randomArray);
+
+	showResult(result);
+});
