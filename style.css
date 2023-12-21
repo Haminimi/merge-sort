@@ -118,3 +118,48 @@ a {
 .fa-github:hover {
 	color: white;
 }
+
+#random-and-sort-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 80%;
+	height: 30%;
+	align-items: center;
+}
+
+#random-section {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 50%;
+	align-items: center;
+}
+
+#random-array-bar {
+	width: 80%;
+	height: 65%;
+	border: 2px solid white;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	padding-left: 10px;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: transform 0.1s linear;
+}
+
+#random-array-content {
+	text-align: center;
+}
+
+#copy-button {
+	cursor: pointer;
+	color: white;
+	user-select: none;
+}
+
+#copy-button:active {
+	transform: scale(0.9);
+}
