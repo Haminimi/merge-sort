@@ -113,3 +113,18 @@ function showResult(array) {
 		result.textContent = array.join(', ');
 	}
 }
+
+function pasteFromClipboard() {
+	navigator.clipboard
+		.readText()
+		.then((clipboardText) => {
+			field.value = clipboardText;
+		})
+		.catch((err) => {
+			console.log('Unable to paste text from clipboard:', err);
+		});
+}
+
+pasteButton.addEventListener('click', () => {
+	pasteFromClipboard();
+});
