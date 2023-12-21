@@ -44,3 +44,11 @@ function merge(leftPart, rightPart) {
 }
 
 console.log(mergeSort([77, 600, 934, 908, 268, 840, 614, 672, 865, 275]));
+
+const randomArray = document.getElementById('random-array-content');
+const copyButton = document.getElementById('copy-button');
+const randomArrayButton = document.getElementById('random-array-button');
+const field = document.getElementById('input-field');
+const pasteButton = document.getElementById('paste-button');
+const sortButton = document.getElementById('sort-button');
+const result = document.getElementById('result');
