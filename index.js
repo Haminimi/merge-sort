@@ -43,8 +43,6 @@ function merge(leftPart, rightPart) {
 	return result;
 }
 
-console.log(mergeSort([77, 600, 934, 908, 268, 840, 614, 672, 865, 275]));
-
 const randomArray = document.getElementById('random-array-content');
 const copyButton = document.getElementById('copy-button');
 const randomArrayButton = document.getElementById('random-array-button');
@@ -52,3 +50,21 @@ const field = document.getElementById('input-field');
 const pasteButton = document.getElementById('paste-button');
 const sortButton = document.getElementById('sort-button');
 const result = document.getElementById('result');
+
+randomArrayButton.addEventListener('click', () => {
+	const randomArray = generateRandomArray();
+	showRandomArray(randomArray);
+});
+
+function generateRandomArray() {
+	const resultArray = [];
+	for (let i = 0; i < 10; i++) {
+		resultArray.push(Math.floor(Math.random() * 1000) + 1);
+	}
+
+	return resultArray;
+}
+
+function showRandomArray(array) {
+	randomArray.textContent = array.join(', ');
+}
