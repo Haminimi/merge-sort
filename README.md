@@ -20,12 +20,15 @@ The [Merge Sort app](https://haminimi.github.io/merge-sort/) built by [me](https
 - Visual Studio Code
 ## Covered Topics
 **This section mentions the main topics covered during project work and prior lessons**
-- Algorithms
 - Recursion
+- Algorithms
 - Merge Sort Algorithm
 - Clipboard API
-## Reflection
-In the previous lessons one of the main topics was recursion, and I found it very fascinating and interesting to work with.
+## Reflection and resources
+In the previous lessons, the main topics were recursion and algorithms, and I found them very fascinating and extremely interesting to work with.
+
+-[This lecture by CS50](https://youtu.be/4oqjcKenCH8?t=6248) provides an excellent conceptual presentation of the Merge Sort algorithm.
+-[This visualizer](https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/visualize/) is great for visualizing how the Merge Sort and other algorithms work step by step.
 ## Credits
 - Icon used for the favicon image is one of the [Algorithm icons created by Icongeek26 - Flaticon](https://www.flaticon.com/free-icons/algorithm).
 - Photo by [Ryoji Iwata](https://unsplash.com/@ryoji__iwata?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/photo-of-man-walking-near-led-signage-tAz4APuJwvs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
