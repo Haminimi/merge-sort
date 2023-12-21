@@ -137,15 +137,19 @@ a {
 }
 
 #random-array-bar {
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 10px;
+}
+
+#random-array-bar,
+#input-field-container {
 	width: 80%;
 	height: 65%;
 	border: 2px solid white;
 	border-radius: 10px;
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
 	padding: 5px;
-	padding-left: 10px;
 	background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -162,15 +166,7 @@ a {
 }
 
 #input-field-container {
-	border: 2px solid white;
-	height: 65%;
-	width: 80%;
-	border-radius: 10px;
-	padding: 5px;
-	background-color: inherit;
-	background-color: rgba(0, 0, 0, 0.6);
 	color: white;
-	display: flex;
 }
 
 #input-field {
