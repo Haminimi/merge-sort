@@ -68,3 +68,18 @@ function generateRandomArray() {
 function showRandomArray(array) {
 	randomArray.textContent = array.join(', ');
 }
+
+function copyToClipboard(text) {
+	navigator.clipboard
+		.writeText(text)
+		.then(() => {
+			console.log('Text successfully copied to clipboard:', text);
+		})
+		.catch((err) => {
+			console.log('Unable to copy text to clipboard:', err);
+		});
+}
+
+copyButton.addEventListener('click', () => {
+	copyToClipboard(randomArray.textContent);
+});
