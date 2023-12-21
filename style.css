@@ -147,21 +147,10 @@ a {
 	padding: 5px;
 	padding-left: 10px;
 	background-color: rgba(0, 0, 0, 0.6);
-	transition: transform 0.1s linear;
 }
 
 #random-array-content {
 	text-align: center;
-}
-
-#copy-button {
-	cursor: pointer;
-	color: white;
-	user-select: none;
-}
-
-#copy-button:active {
-	transform: scale(0.9);
 }
 
 #sort-section {
@@ -206,12 +195,15 @@ a {
 	width: 5%;
 }
 
-#paste-button {
+#paste-button,
+#copy-button {
 	cursor: pointer;
 	user-select: none;
+	color: white;
 }
 
-#paste-button:active {
+#paste-button:active,
+#copy-button:active {
 	transform: scale(0.9);
 }
 
