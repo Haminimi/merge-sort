@@ -7,6 +7,7 @@ The [Merge Sort app](https://haminimi.github.io/merge-sort/).
 ## Main Features
 - **Merge Sort:** Sort a list of numbers using the powerful Merge Sort algorithm.
 - **Responsive Design:** The app provides a consistent user experience and a user-friendly interface across various screen sizes.
+
 **To Do:**
 - [ ] **Add Other Sorting Algorithms**
 ## Tech
@@ -14,6 +15,7 @@ The [Merge Sort app](https://haminimi.github.io/merge-sort/).
 - HTML
 - Vanilla JavaScript
 - Vanilla CSS
+
 **Tools**
 - Visual Studio Code
 - Git
